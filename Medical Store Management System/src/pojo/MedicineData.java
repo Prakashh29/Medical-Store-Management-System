@@ -2,9 +2,9 @@ package pojo;
 
 public class MedicineData 
 {
-	int mid,stock;
-	String mname,company,type,units,expDate;
-	double price;
+	private int mid,stock;
+	private String mname,company,type,units,expDate;
+	private double price;
 	public MedicineData(int mid, String mname, String type,String company, String units, int stock, double price,String expDate) 
 	{
 		this.mid = mid;

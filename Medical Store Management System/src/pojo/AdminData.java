@@ -3,10 +3,10 @@ package pojo;
 
 public class AdminData 
 {
-	int id;
-	String username;
-	long mobileNo;
-	String password;
+	private int id;
+	private String username;
+	private long mobileNo;
+	private String password;
 	public AdminData(int id, String username, long mobileNo, String password)
 	{
 		super();

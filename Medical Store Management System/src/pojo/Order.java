@@ -4,13 +4,13 @@ import java.time.LocalDateTime;
 
 public class Order 
 {
-	int id;
-	String custname;
-	String medname;
-	String medunit;
-	int quantity;
-	double total_Bill;
-	String dateTime;
+	private int id;
+	private String custname;
+	private String medname;
+	private String medunit;
+	private int quantity;
+	private double total_Bill;
+	private String dateTime;
 	public Order(int id, String custname, String medname,String medunit, int quantity, double total_Bill, String dateTime) 
 	{
 		super();
