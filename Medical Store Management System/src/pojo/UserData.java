@@ -3,11 +3,11 @@ package pojo;
 
 public class UserData 
 {
-	int id;
-	String fullName;
-	long mobileNo;
-	String email;
-	String password;
+	private int id;
+	private String fullName;
+	private long mobileNo;
+	private String email;
+	private String password;
 	
 	public UserData(int id, String fullName, long mobileNo, String email, String password) 
 	{
